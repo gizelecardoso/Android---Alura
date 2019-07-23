@@ -6,7 +6,7 @@ Iniciando estudos do Android pela plataforma Alura.
  
  Projeto: Agenda Aluno.
  
- COMMIT INCIAL:
+ COMMIT INICIAL
  
   Inicialização do Projeto:
 
@@ -19,3 +19,20 @@ Iniciando estudos do Android pela plataforma Alura.
     Esta opção reinicia o Android Studio, porém, além de reiniciar, no meio do processo ele remove todos os arquivos gerados pela IDE e gera novamente.
 
     Se o mesmo problema for apresentado, sugerimos que entre em contato com a gente por meio do fórum, indicando a mensagem do problema e, se possível, enviando o projeto via GitHub para que seja possível testar e investigar o problema.
+
+
+IMPLEMENTANDO ACTIVITY
+
+  Introoducao do conceito de Activity - Ponto de entrada da aplicação Android  
+    Composta de VIEW e LOGICA.
+    
+   Precisa ser formatada:
+    1 - Classe chamada MainActivity que extends Activity
+    2 - AndroidManifest.xml - precisa configurar a Activity
+      dentro da tag <properties>
+                        <activity android:name=".MainActivity">
+              <intent-filter>  
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
