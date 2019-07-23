@@ -6,6 +6,8 @@ Iniciando estudos do Android pela plataforma Alura.
  
  Projeto: Agenda Aluno.
  
+ COMMIT INCIAL:
+ 
   Inicialização do Projeto:
 
       Alguns possiveis erros - e como se corrigi-losSincronizando projeto com o Gradle
